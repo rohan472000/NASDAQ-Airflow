@@ -1,0 +1,12 @@
+apache-airflow
+matplotlib
+psycopg2-binary
+pandas
+numpy
+sklearn
+tensorflow
+keras
+matplotlib
+scikit-learn
+pandas-datareader
+joblib
