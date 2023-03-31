@@ -17,7 +17,7 @@ from keras.models import Sequential
 from keras.layers import Dense
 from keras.layers import LSTM
 
-MODEL_PATH = 'C:/Users/anand/Desktop/airflow-2023/model'
+MODEL_PATH = 'C:/airflow-2023/model'
 
 
 def create_dataset(dataset, time_step=1):
@@ -43,11 +43,11 @@ def training():
 
 
 def get_data():
-    key = "87f601b3fffb4764176595daa3886d5efa8aa033"  # your tiingo api key
+    key = "xxxxxxxxxxxxxxx"  # your tiingo api key
     df = pdr.get_data_tiingo('NDAQ', api_key=key)
-    dirname = 'C:/Users/anand/Desktop/NASDAQ-model/model/NDAQ2.csv'
+    dirname = 'C:/NASDAQ-model/model/NDAQ2.csv'
     df.to_csv(dirname)
-    df = pd.read_csv('C:/Users/anand/Desktop/NASDAQ-model/model/NDAQ2.csv')
+    df = pd.read_csv('C:/NASDAQ-model/model/NDAQ2.csv')
     # df.head()
     df1 = df.reset_index()['close']
     scaler = MinMaxScaler(feature_range=(0, 1))
@@ -97,7 +97,7 @@ def save_model(model: Pipeline, model_path: PosixPath):
 
 
 def give_ytrain_ytest():
-    df = pd.read_csv('C:/Users/anand/Desktop/NASDAQ-model/model/NDAQ2.csv')
+    df = pd.read_csv('C:/NASDAQ-model/model/NDAQ2.csv')
     # df.head()
     df1 = df.reset_index()['close']
     scaler = MinMaxScaler(feature_range=(0, 1))
