@@ -21,3 +21,7 @@ The following packages are required to run the code in this repository:
 - Matplotlib
 - Scikit-learn
 - Airflow (for running the DAG)
+
+
+## Contributing
+Contributions to this repository are welcome. If you find a bug or have a suggestion for improvement, please open an issue or submit a pull request.
