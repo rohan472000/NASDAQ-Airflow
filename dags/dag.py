@@ -1,7 +1,7 @@
 from datetime import datetime, timedelta
 
 from airflow import DAG
-# from airflow.operators.dummy import DummyOperator
+
 from airflow.operators.python import PythonOperator
 
 from training import training
@@ -19,9 +19,6 @@ with DAG(
         schedule_interval='* * * * *',
         start_date=datetime(2020, 1, 6)
 ) as dag:
-    # enter_point = DummyOperator(
-    #     task_id='enter_point'
-    # )
     train_model = PythonOperator(
         task_id='train_model',
         python_callable=training
@@ -32,5 +29,5 @@ with DAG(
         python_callable=evaluate
     )
 
-    """enter_point >>"""
+ 
     train_model >> evaluate_model
