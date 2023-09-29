@@ -1,5 +1,9 @@
 name: Ping GitHub Account
 on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
   schedule:
     - cron: '*/1 * * * *' # Run every minute
 
