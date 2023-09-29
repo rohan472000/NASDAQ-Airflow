@@ -7,7 +7,7 @@ This repository contains a Jupyter notebook and Python scripts that use an LSTM 
 
 - **training.py :** A Python script that loads the NASDAQ dataset, trains the LSTM model, and saves the trained model to a file.
 
-**evaluation.py :** A Python script that loads the trained model, evaluates its performance on the test data, and generates a visualization of the predicted vs. actual values.
+- **evaluation.py :** A Python script that loads the trained model, evaluates its performance on the test data, and generates a visualization of the predicted vs. actual values.
 
 **dag.py :** A Python script that defines an Airflow DAG for running the training and evaluation tasks.
 
