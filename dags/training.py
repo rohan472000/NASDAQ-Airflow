@@ -84,6 +84,8 @@ def build_ml_pipeline(df: pd.DataFrame) -> Pipeline:
     model.add(LSTM(60))
     model.add(Dense(1))
     model.compile(loss='mean_squared_error', optimizer='adam', metrics=['accuracy'])
+    
+    # commented below model.fit()
     # model.fit(X_train,y_train,validation_data=(X_test,ytest),epochs=100,batch_size=70,verbose=1)
 
     logging.info(f'### A number of numerical features: {model.summary}')
