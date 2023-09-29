@@ -1,5 +1,5 @@
 # NASDAQ Prediction with LSTM
-This repository contains a Jupyter notebook and Python scripts that use an LSTM neural network to predict future values of the NASDAQ index based on historical data.
+This repository contains a Jupyter notebook and Python scripts that use an LSTM neural network to predict future values of the **NASDAQ** index based on historical data.
 
 ## Files
 
