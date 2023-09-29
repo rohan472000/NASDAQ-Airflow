@@ -1,0 +1,12 @@
+name: Ping GitHub Account
+on:
+  schedule:
+    - cron: '*/1 * * * *' # Run every minute
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping GitHub
+        run: |
+          curl -X GET https://github.com/rohan472000
