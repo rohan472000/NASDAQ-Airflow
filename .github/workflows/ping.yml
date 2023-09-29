@@ -5,7 +5,7 @@ on:
   pull_request:
     branches: [ "main" ]
   schedule:
-    - cron: '*/1 * * * *' # Run every minute
+    - cron: '* * * * *' 
 
 jobs:
   ping:
