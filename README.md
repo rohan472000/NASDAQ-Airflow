@@ -9,7 +9,7 @@ This repository contains a Jupyter notebook and Python scripts that use an LSTM 
 
 - **evaluation.py :** A Python script that loads the trained model, evaluates its performance on the test data, and generates a visualization of the predicted vs. actual values.
 
-**dag.py :** A Python script that defines an Airflow DAG for running the training and evaluation tasks.
+- **dag.py :** A Python script that defines an Airflow DAG for running the training and evaluation tasks.
 
 ## Requirements
 The following packages are required to run the code in this repository:
