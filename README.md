@@ -3,7 +3,7 @@ This repository contains a Jupyter notebook and Python scripts that use an LSTM 
 
 ## Files
 
-**NASDAQ-data-analysis-LSTM.ipynb :** A Jupyter notebook that contains the data analysis, model training, and prediction code. The notebook includes detailed explanations and visualizations of the data analysis and model training process.
+- **NASDAQ-data-analysis-LSTM.ipynb :** A Jupyter notebook that contains the data analysis, model training, and prediction code. The notebook includes detailed explanations and visualizations of the data analysis and model training process.
 
 **training.py :** A Python script that loads the NASDAQ dataset, trains the LSTM model, and saves the trained model to a file.
 
