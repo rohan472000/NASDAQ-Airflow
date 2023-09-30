@@ -10,8 +10,8 @@ from evaluation import evaluate
 
 default_args = {
     'owner': 'NASDAQ-MODEL',
-    'retries': 5,
-    'retry_delay': timedelta(minutes=2)
+    'retries': 6,
+    'retry_delay': timedelta(minutes=4)
 }
 with DAG(
         dag_id='ml_project',
@@ -28,7 +28,7 @@ with DAG(
     evaluate_model = PythonOperator(
         task_id='evaluate_model',
         python_callable=evaluate
-    )
+    ) 
 
  
     train_model >> evaluate_model
