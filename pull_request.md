@@ -1,16 +1,24 @@
-###Pull Request
+# Pull Request Description
 
+## Description
 
-- [] Files added
+[Provide a concise description of the changes made in this pull request.]
 
- | File Name | <!--File name--> | 
-| --------- | --------- |
- | Functiionality | - <!--Functionality 1--><br> - <!--Functionality 1--><br> - <!--Functionality 1--><br> |
-| Path | <!-- File path -->|
+## Fixed issue
 
-- [] Updated files
+[Reference the issue or task using its number or likn and explain your solution]
 
- | File Name | <!--File name--> | 
-| --------- | --------- |
- | Functiionality | - <!--Functionality 1--><br> - <!--Functionality 1--><br> - <!--Functionality 1--><br> |
+## Changes Made
 
+[Brefiely list the code changes made.]
+
+## Screenshots
+
+[please attach screenshots if made visual changes.]
+
+## check boxes
+
+- [ ] Fixed Bug/Issue
+- [ ] Added Files
+- [ ] Updated documentation(applicable  if added new functionality)
+- [ ] Added wikipedia links(applicable if added new algorithms)
